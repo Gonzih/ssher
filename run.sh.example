@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Replace with your credentials
+env OPENAI_API_KEY=sk-your-keys poetry run python src/main.py user@111.111.111.111
