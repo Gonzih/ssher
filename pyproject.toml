@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ssher"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "^0.0.310"
+openai = "^0.28.1"
+tiktoken = "^0.5.1"
+paramiko = "^3.3.1"
+termcolor = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
